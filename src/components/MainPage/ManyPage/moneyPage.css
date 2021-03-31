@@ -1,0 +1,27 @@
+.moneyPage {
+  display: block;
+  position: absolute;
+  z-index: 4;
+  width: 180px;
+  height: 100px;
+  right: 15%;
+  text-align: center;
+  transition: color 0.5s;
+}
+.moneyPage .big {
+  background-color: #2934ff50;
+  border-radius: 0 0 20px 20px;
+  cursor: pointer;
+}
+.moneyPage .small {
+  background-color: transparent;
+  height: 30%;
+  width: auto;
+}
+.moneyPage .small img {
+  height: 100%;
+}
+.moneyPage:hover {
+  transition: 0.5s;
+}
+/*# sourceMappingURL=moneyPage.css.map */

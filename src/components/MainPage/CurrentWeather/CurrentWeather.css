@@ -1,0 +1,165 @@
+.titleWeather{
+    position: absolute;
+    top: -20px;
+    width: 30%;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+    color: rosybrown;
+}
+.timeCicle{
+    font-size: larger;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.windWeatherNow{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    font-size: 30px;
+
+}
+.windWeatherNow > span {
+    position: absolute;
+    top:-30px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.MainWeatherProp{
+    position: absolute;
+    top:30%;
+     font-weight: bolder;
+    font-size: 35px;
+}
+.weatherDesc{
+    position: absolute;
+    width: 30%;
+    margin-left: 33%;
+    margin-right: 33%;
+    top: 20%;
+    height: 60%;
+
+}
+.weatherDesc >div{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+
+@media screen and (max-width: 940px) {
+    .titleWeather{
+        position: absolute;
+        top: -20px;
+        width: 30%;
+        margin-left: 33%;
+        margin-right: 33%;
+        text-align: center;
+        color: rosybrown;
+    }
+    .timeCicle{
+        font-size: larger;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+    .windWeatherNow{
+        position: absolute;
+        right: 5%;
+        bottom: 40%;
+        font-size: 20px;
+
+    }
+    .windWeatherNow > span {
+        position: absolute;
+        top:-30px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+
+    }
+
+    .MainWeatherProp{
+        position: absolute;
+        top:30%;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .weatherDesc{
+        position: absolute;
+        width: 30%;
+        margin-left: 33%;
+        margin-right: 33%;
+        top: 20%;
+        height: 60%;
+
+    }
+    .weatherDesc >div{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        color: crimson;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .CurrentWeatherPage{
+        height: 100%;
+         /*border: red solid 3px;*/
+    }
+    .titleWeather{
+        position: inherit;
+        font-size: 12px;
+        width: 30%;
+        margin-left: 33%;
+        margin-right: 33%;
+        text-align: center;
+        color: rosybrown;
+    }
+    .timeCicle{
+        font-size: larger;
+        position: inherit;
+        right: 10px;
+        top: 5px;
+    }
+    .windWeatherNow{
+        position: static;
+        right: 5%;
+        bottom: 40%;
+        font-size: 20px;
+
+    }
+    .windWeatherNow > span {
+        position: static;
+        top:-30px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+
+    }
+
+    .MainWeatherProp{
+        position: static;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .weatherDesc{
+        position: static;
+    }
+
+
+}
+
